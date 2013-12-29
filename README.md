@@ -1,7 +1,7 @@
 30logclasscommons
 =================
 
-This repository provides a plugin for compatibility between the object orientation library [30log]() and [Class-commons]().
+This repository provides a plugin for compatibility between the object orientation library [30log](https://github.com/Yonaba/30log) and [Class-commons](https://github.com/bartbes/Class-Commons).
 
 ##Download
 
