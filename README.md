@@ -48,7 +48,7 @@ The original implementation of this plugin was made by [TsT2005](https://github.
 
 ##LICENSE
 The [MIT License](http://www.opensource.org/licenses/mit-license.php) (MIT)<br>
-Copyright (c) 2012-2013 TsT <tst@worldmaster.fr>, Roland Y. <roland.yonaba@gmail.com>
+Copyright (c) 2012-2013 TsT, Roland Y.
 
 > Permission is hereby granted, free of charge, to any person obtaining a copy of
 > this software and associated documentation files (the "Software"), to deal in
