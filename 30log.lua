@@ -21,7 +21,7 @@ baseMt = { __call = function (self,...) return self:new(...) end, __tostring = f
   if _instances[self] then return ('object(of %s):<%s>'):format((rawget(getmetatable(self),'__name') or '?'), _instances[self]) end
   return _classes[self] and ('class(%s):<%s>'):format((rawget(self,'__name') or '?'),_classes[self]) or self
 end}
-class = function(attr)
+local class = function(attr)
   local c = deep_copy(attr) ; _classes[c] = tostring(c);
   c.include = function(self,include) assert(_classes[self], 'Mixins can only be used on classes.'); return deep_copy(include, self, 'function') end
   c.new, c.extends, c.__index, c.__call, c.__tostring = instantiate, extends, c, baseMt.__call, baseMt.__tostring;

@@ -8,6 +8,7 @@ if common_class ~= false and not common then
   function common.class(name, prototype, parent)
     local klass = class():extends(parent):extends(prototype)
     klass.__init = prototype.init or (parent or {}).init
+    klass.__name = name
     return klass
   end
   function common.instance(class, ...)
