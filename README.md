@@ -37,18 +37,18 @@ instance = common.instance(class, ...)
 See [Class-Commons specification](https://github.com/bartbes/Class-Commons/blob/master/README.md) for more details.
 
 ##Testing
-The actual plugin can be tested against [Class-Commons implementation rules](https://github.com/bartbes/Class-Commons/blob/master/SPECS.md). You can run these test on your own using the following command from the root directory:
+The actual plugin was tested against [Class-Commons implementation rules](https://github.com/bartbes/Class-Commons/blob/master/SPECS.md). You can run these test on your own using the following command from the root directory:
 
 ````
 lua tests/tests.lua 30logclasscommons_test
 ````
 
 ##Contributors
-The original implementation of this plugin was made by [TsT2005](https://github.com/Yonaba/30log/pull/1).
+This plugin was originally authored by [TsT2005](https://github.com/Yonaba/30log/pull/1).
 
 ##LICENSE
 The [MIT License](http://www.opensource.org/licenses/mit-license.php) (MIT)<br>
-Copyright (c) 2012-2013 TsT, Roland Y.
+Copyright (c) 2012-2015 TsT, Roland Y.
 
 > Permission is hereby granted, free of charge, to any person obtaining a copy of
 > this software and associated documentation files (the "Software"), to deal in
