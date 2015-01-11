@@ -6,9 +6,9 @@ local class = require(PATH .. ".30log")
 if common_class ~= false and not common then
   common = {}
   function common.class(name, prototype, parent)
-    local klass = class():extends(parent):extends(prototype)
-    klass.__init = prototype.init or (parent or {}).init
-    klass.__name = name
+    local klass = class():extend(nil,parent):extend(nil,prototype)
+    klass.init = prototype.init or (parent or {}).init
+		klass.name = name
     return klass
   end
   function common.instance(class, ...)
