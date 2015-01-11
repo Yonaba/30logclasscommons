@@ -1,6 +1,9 @@
 30logclasscommons
 =================
 
+[![Build Status](https://travis-ci.org/Yonaba/30logclasscommons.png)](https://travis-ci.org/Yonaba/30logclasscommons)
+[![License](http://img.shields.io/badge/Licence-MIT-brightgreen.svg)](LICENSE)
+
 This repository provides a plugin for compatibility between the object orientation library [30log](https://github.com/Yonaba/30log) and [Class-commons](https://github.com/bartbes/Class-Commons).
 
 ##Download
