@@ -1,3 +1,0 @@
-[submodule "tests"]
-	path = tests
-	url = http://github.com/bartbes/Class-Commons-Tests
