@@ -11,10 +11,8 @@ This repository provides a plugin for compatibility between the object orientati
 Via Git:
 
 ````
-git clone git://github.com/Yonaba/30logclasscommons --recursive
+git clone git://github.com/Yonaba/30logclasscommons
 ````
-
-*Note*: Do not omit the `--recursive` in order to retrieve the submodule files.
 
 ## Usage
 Copy the files [30log.lua](https://github.com/Yonaba/30logclasscommons/blob/master/30log.lua) and [30logclasscommons.lua](https://github.com/Yonaba/30logclasscommons/blob/master/30logclasscommons.lua) inside your project folder. It is strongly recommended to keep them close each other, in the same directory.<br/>
