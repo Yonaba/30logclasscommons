@@ -1,3 +1,4 @@
+#!/usr/bin/env lua
 tests = {}
 
 tests["Existence of common.class"] = function()
